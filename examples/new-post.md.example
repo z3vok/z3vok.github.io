@@ -1,0 +1,64 @@
+---
+title: Testing a Runtime Authorization Boundary
+slug: runtime-boundary
+permalink: writing/runtime-boundary/
+date: '2026-09-24 10:00:00'
+topic: AI & agent security
+lang: en
+summary: Describe the question, method and limits in one or two sentences.
+format_label: Research note
+privacy_reviewed: false
+content_status: Editorial draft
+source_checked: '2026-09-24'
+---
+
+<!--
+Write the first draft outside the website project. Do not add private material or
+unredacted screenshots to source/. Set privacy_reviewed to true only after
+reviewing the text, code, images and metadata; the flag does not redact anything.
+Use the actual publication date. Remove content_status only after editorial review.
+Preserve technical detail: versions, commands, order, expected behavior, failure
+diagnosis and retesting. Replace private business identifiers and data with a
+synthetic local fixture; do not remove essential steps merely to anonymize it.
+Keep attribution to public vendors, open-source projects and advisories.
+The slug must match the final Markdown filename and writing/<slug>/ permalink.
+lang describes the BODY language, not just its English title and summary.
+-->
+
+## Question
+
+State the security boundary or behavior under investigation.
+
+## Environment and method
+
+Give exact versions and conditions. Distinguish a proposed experiment from one
+actually executed. Use synthetic records and documentation addresses.
+
+```text
+Illustrative domain: lab.example.com
+Illustrative address: 192.0.2.10
+```
+
+## Reproduction steps
+
+Give an ordered procedure, prerequisites and expected observations. Explain how
+to distinguish a security decision from a broken setup. If this is only a
+proposed procedure, keep that status explicit and do not invent terminal output.
+
+## Evidence and interpretation
+
+Present observed results only when supported by retained evidence. Label
+inferences and untested procedures explicitly.
+
+## Remediation and retest
+
+Explain the fix, repeat the original case and retain a permitted control case.
+
+## Limitations
+
+Describe missing coverage, failed attempts and alternative explanations.
+
+## References
+
+Link primary sources beside the claims they support. Attribute upstream work and
+state what, if anything, this article independently tested.

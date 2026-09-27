@@ -1,0 +1,40 @@
+title: z3vok
+subtitle: Security notes
+description: Security research notes on code auditing, vulnerability analysis, network forensics and AI systems.
+author: z3vok
+language: en
+timezone: Asia/Shanghai
+url: https://z3vok.com
+root: /
+permalink: writing/:title/
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archive
+theme: z3vok
+default_layout: post
+new_post_name: :title.md
+external_link:
+  enable: true
+  field: post
+  exclude: []
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace: '  '
+  wrap: true
+prismjs:
+  enable: false
+marked:
+  gfm: true
+  breaks: false
+  sanitizeUrl: true
+  headerIds: true
+  dompurify: false
+skip_render:
+  - assets/**
+  - search-index.json
+exclude:
+  - '**/.DS_Store'
+  - '**/node_modules/**'

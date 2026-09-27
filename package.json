@@ -1,0 +1,29 @@
+{
+  "name": "z3vok-field-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal journal on application security, network forensics and AI systems.",
+  "scripts": {
+    "new": "hexo new post",
+    "build": "node tools/preflight.cjs && hexo clean && hexo generate",
+    "dev": "node tools/preflight.cjs && hexo clean && hexo server --config _config.yml,_config.local.yml --ip 127.0.0.1 --port 4329",
+    "check": "node tools/check.mjs",
+    "verify": "npm run build && npm run check",
+    "clean": "hexo clean"
+  },
+  "hexo": {
+    "version": "7.1.1"
+  },
+  "dependencies": {
+    "hexo": "7.1.1",
+    "hexo-renderer-ejs": "2.0.0",
+    "hexo-renderer-marked": "6.0.0",
+    "hexo-server": "3.0.0"
+  },
+  "devDependencies": {
+    "jsdom": "20.0.3",
+    "hexo-front-matter": "4.2.1",
+    "js-yaml": "4.1.0",
+    "marked": "4.3.0"
+  }
+}
