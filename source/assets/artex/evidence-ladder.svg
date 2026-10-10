@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" role="img" aria-labelledby="title desc">
+  <title id="title">From recorded intent to a verified effect</title>
+  <desc id="desc">Four stages distinguish an instruction, an executor attempt, a protected-service decision, and an independently checked outcome. The diagram is a conceptual analytical model, not a recovered campaign trace.</desc>
+  <rect width="800" height="650" rx="8" fill="#fafaf8"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#222622">
+    <text x="40" y="49" font-size="24" font-weight="700">From recorded intent to a verified effect</text>
+    <text x="40" y="80" font-size="16" fill="#656b61">Conceptual evidence model · corroborate each transition</text>
+    <path d="M74 160V535" fill="none" stroke="#d6dbd2" stroke-width="3"/>
+    <g fill="#ffffff" stroke="#d6dbd2">
+      <rect x="112" y="115" width="648" height="95" rx="5"/>
+      <rect x="112" y="245" width="648" height="95" rx="5"/>
+      <rect x="112" y="375" width="648" height="95" rx="5"/>
+      <rect x="112" y="505" width="648" height="95" rx="5"/>
+    </g>
+    <g fill="#8f452b">
+      <circle cx="74" cy="162" r="22"/>
+      <circle cx="74" cy="292" r="22"/>
+      <circle cx="74" cy="422" r="22"/>
+      <circle cx="74" cy="552" r="22"/>
+    </g>
+    <g fill="#ffffff" font-size="20" text-anchor="middle" font-weight="700">
+      <text x="74" y="169">1</text>
+      <text x="74" y="299">2</text>
+      <text x="74" y="429">3</text>
+      <text x="74" y="559">4</text>
+    </g>
+    <g font-size="21" font-weight="700">
+      <text x="137" y="149">Recorded intent</text>
+      <text x="137" y="279">Executor attempt</text>
+      <text x="137" y="409">Service decision</text>
+      <text x="137" y="539">Verified effect</text>
+    </g>
+    <g font-size="17" fill="#656b61">
+      <text x="137" y="181">Instructions and transcripts describe a proposed operation.</text>
+      <text x="137" y="311">A tool or process record shows what was attempted.</text>
+      <text x="137" y="441">Identity, resource, policy and outcome establish acceptance.</text>
+      <text x="137" y="571">Committed state or a recipient receipt corroborates impact.</text>
+    </g>
+    <g font-family="Consolas, monospace" font-size="13" fill="#8f452b">
+      <text x="137" y="232">Was it invoked?</text>
+      <text x="137" y="362">Did the target accept it?</text>
+      <text x="137" y="492">What actually changed?</text>
+    </g>
+    <text x="40" y="629" font-size="13" fill="#656b61">z3vok · evidence before claims</text>
+  </g>
+</svg>
