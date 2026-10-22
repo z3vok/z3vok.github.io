@@ -23,6 +23,8 @@ synthetic local fixture; do not remove essential steps merely to anonymize it.
 Keep attribution to public vendors, open-source projects and advisories.
 The slug must match the final Markdown filename and writing/<slug>/ permalink.
 lang describes the BODY language, not just its English title and summary.
+New posts appear in the homepage "Selected writing" automatically (newest first).
+Set `featured_rank: 0` to hide one from the homepage, or `archived: true` to archive it.
 -->
 
 ## Question

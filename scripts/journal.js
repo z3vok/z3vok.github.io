@@ -11,7 +11,7 @@ const absoluteURL = p => new URL(String(p||'').replace(/^\/+/,''),hexo.config.ur
 hexo.extend.helper.register('journal_public_origin',isPublicOrigin);
 hexo.extend.helper.register('journal_canonical',function(page){ return absoluteURL((page.path||'').replace(/index\.html$/,'')); });
 hexo.extend.helper.register('journal_posts', function() { return this.site.posts.sort('date', -1).toArray(); });
-hexo.extend.helper.register('journal_featured', function() { return this.site.posts.toArray().filter(p => p.featured_rank > 0).sort((a,b) => Number(!!a.archived)-Number(!!b.archived) || a.featured_rank - b.featured_rank).slice(0,8); });
+hexo.extend.helper.register('journal_featured', function() { return this.site.posts.toArray().filter(p => !p.archived && p.featured_rank !== 0).sort((a,b) => b.date - a.date).slice(0,8); });
 hexo.extend.helper.register('journal_categories', function() { return [...new Set(this.site.posts.toArray().map(p => p.topic))].filter(Boolean); });
 hexo.extend.helper.register('date_label', function(date) { return date.format('YYYY.MM.DD'); });
 hexo.extend.helper.register('reading_time', function(post) { return Math.max(1, Math.ceil(post.lang==='en' ? (post.raw || '').split(/\s+/).length / 220 : (post.raw || '').length / 1200)); });
